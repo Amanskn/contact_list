@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: black;
+    font-family: sans-serif;
+    /* text-align: center; */
+}
+#contact-container{
+    box-shadow: 0px 0px 15px 5px lightgreen;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,pink, brown);
+    width: 500px;
+    margin: auto;
+    /* margin-top: 80px; */
+
+    /* height: 100vh; */
+    /* margin-top: -20vh; */
+    /* margin-left: 25vw; */
+    /* display: ; */
+}
+#contact-container div{
+    /* border: 4px solid purple; */
+    margin: 2px;
+}
+#contact-container #heading-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact-container #heading-container i{
+    font-size: 2rem;
+    margin-right: 10px;
+    color: royalblue;
+    
+}
+
+/*-------------------------- css realated to individual --------------*/
+#contact-container #individual ul{
+    /* border: 5px solid pink; */
+    list-style: none;
+    padding-left: 0;
+}
+#contact-container #individual .individual-contacts{
+    display: flex;
+    align-items: center;
+    /* border: 4px solid orange; */
+    background-color:wheat;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+#contact-container #individual .individual-contacts:hover{
+    background-color: grey;
+}
+#contact-container #individual .individual-contacts i{
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    color: black;
+}
+#contact-container #individual .individual-contacts i:hover{
+    color: red;
+    background-color: black;
+    /* cursor: pointer; */
+}
+#contact-container #individual li{
+    /* list-style: none; */
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 0; */
+    padding: 0px 5px 0px ;
+    /* font-size: 1rem; */
+    width: 85%;
+}
+
+/*--------------------- css related to form section--------------------- */
+#contact-container #form form{
+    /* background-color: pink; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#contact-container #form form input{
+    padding: 5px;
+    font-size: 0.8rem;
+    border: transparent;
+    border-radius: 20px;
+    background-color: wheat;
+    /* border-bottom: 2px solid black; */
+}
+
+#contact-container #form form button{
+    border-radius: 20px;
+    border: transparent;
+    padding: 8px;
+    background-color: grey;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+}
+#contact-container #form form button:hover{
+    
+    transform: scale(0.8);
+}
