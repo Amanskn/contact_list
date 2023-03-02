@@ -925,10 +925,13 @@ app.get("/delete-contact/",function(req,res){
                 return;
             }
             return res.redirect('back');
+            // return res.status(200).json({
+            //     msg:"contact deleted"
+            // })
         }); 
 
     });
-    
+
 
 app.post('/create-contact',function(req,res){ 
     

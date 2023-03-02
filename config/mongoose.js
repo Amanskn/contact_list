@@ -1,7 +1,9 @@
 // Requiring the mongoose module
 const mongoose=require("mongoose");
 // Connecting to the database
-mongoose.connect("mongodb://localhost/contact_list_db");
+mongoose.connect("mongodb://localhost/contact_list_db",{
+    family:4
+});
 // below is the code to access the DB via the name db
 const db=mongoose.connection;
 // To handle the error
